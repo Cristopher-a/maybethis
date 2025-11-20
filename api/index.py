@@ -16,7 +16,6 @@ supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 # Configuración Flask
 # ----------------------------
 app = Flask(__name__)
-CORS(app)
 
 @app.route('/')
 def home():
